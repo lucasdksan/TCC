@@ -1,5 +1,49 @@
 
 const centsToReal = (val) => (val || 0) / 100;
+const buildStatsHtml = (stats) => {
+    const esc = (s) => String(s == null ? '' : s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+
+    const produtos = stats.top_produtos || [];
+    let html = '<table border="1" cellpadding="4" cellspacing="0">';
+    html += '<tr><th colspan="2">Período</th></tr>';
+    html += `<tr><td>Início</td><td>${esc(stats.periodo.inicio)}</td></tr>`;
+    html += `<tr><td>Fim</td><td>${esc(stats.periodo.fim)}</td></tr>`;
+    html += `<tr><td>Total dias</td><td>${esc(stats.periodo.total_dias)}</td></tr>`;
+
+    html += '<tr><th colspan="2">KPIs</th></tr>';
+    for (const k of ['total_pedidos','total_cancelados','total_aprovados','taxa_cancelamento_percentual','receita_bruta_total','ticket_medio']) {
+        html += `<tr><td>${esc(k)}</td><td>${esc(stats.kpis[k])}</td></tr>`;
+    }
+
+    html += '<tr><th colspan="2">Pagamentos</th></tr>';
+    html += '<tr><td colspan="2">';
+    html += '<table border="1" cellpadding="3" cellspacing="0">';
+    html += '<tr><th>Método</th><th>Qtd</th><th>Cancelados</th><th>Taxa Erro</th></tr>';
+    for (const p in stats.pagamentos) {
+        const pag = stats.pagamentos[p];
+        html += `<tr><td>${esc(p)}</td><td>${esc(pag.qtd)}</td><td>${esc(pag.cancelados)}</td><td>${esc(pag.taxa_erro)}</td></tr>`;
+    }
+    html += '</table>';
+    html += '</td></tr>';
+
+    html += '<tr><th colspan="2">Produtos (Top)</th></tr>';
+    html += '<tr><td colspan="2">';
+    html += '<table border="1" cellpadding="3" cellspacing="0">';
+    html += '<tr><th>Nome</th><th>Qtd Vendida</th><th>Receita Gerada</th><th>Pedidos Envolvidos</th></tr>';
+    for (const prod of produtos) {
+        const receita = (typeof prod.receita_gerada === 'number') ? prod.receita_gerada.toFixed(2) : esc(prod.receita_gerada);
+        html += `<tr><td>${esc(prod.nome)}</td><td>${esc(prod.qtd_vendida)}</td><td>${esc(receita)}</td><td>${esc(prod.pedidos_envolvidos)}</td></tr>`;
+    }
+    html += '</table>';
+    html += '</td></tr>';
+
+    html += '</table>';
+    return html;
+};
+
 let result = [];
 
 for (const item of $input.all()) {
@@ -20,7 +64,8 @@ for (const item of $input.all()) {
         },
         pagamentos: {}, 
         produtos: {},   
-        alertas: []     
+        alertas: [],
+        html_table: ""  
     };
 
     for (const order of list) {
@@ -29,7 +74,6 @@ for (const item of $input.all()) {
         const dataPedido = new Date(order.creationDate);
         if (!stats.periodo.inicio || dataPedido < stats.periodo.inicio) stats.periodo.inicio = dataPedido;
         if (!stats.periodo.fim || dataPedido > stats.periodo.fim) stats.periodo.fim = dataPedido;
-
         
         const isCanceled = order.status === 'canceled' || order.statusDescription === 'Cancelado';
 
@@ -57,14 +101,13 @@ for (const item of $input.all()) {
                 if (!stats.produtos[nomeProd]) {
                     stats.produtos[nomeProd] = {
                         nome: nomeProd,
+                        productID: item.productId,
                         qtd_vendida: 0,
                         receita_gerada: 0,
                         pedidos_envolvidos: 0
                     };
                 }
 
-                
-                
                 stats.produtos[nomeProd].qtd_vendida += item.quantity;
                 stats.produtos[nomeProd].receita_gerada += centsToReal(item.sellingPrice * item.quantity);
                 stats.produtos[nomeProd].pedidos_envolvidos++;
@@ -98,6 +141,12 @@ for (const item of $input.all()) {
     delete stats.produtos; 
     
     stats.kpis.receita_bruta_total = stats.kpis.receita_bruta_total.toFixed(2);
+
+    try {
+        stats.html_table = buildStatsHtml(stats);
+    } catch (e) {
+        stats.html_table = '';
+    }
 
     result.push({ json: stats });
 }

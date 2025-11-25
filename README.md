@@ -19,6 +19,14 @@ A Vtex é uma plataforma de e-commerce baseada em nuvem que oferece soluções p
 
 Palavras-chave: N8N; IA; Análise de dados;
 
-1. **Introdução**
+### Introdução
 
-A VTEX fornece uma arquitetura composable e desacoplada, oferecendo funcionalidades como gestão omnichannel, APIs robustas e ferramentas avançadas de otimização de estoque. Esse conjunto de aplicações permite que gestores de e-commerces tenham controle completo sobre o fluxo de vendas — como acompanhar, por exemplo, quantos produtos foram vendidos em uma determinada campanha. No entanto, essas informações muitas vezes são apresentadas de forma dispersa e simplificada aos lojistas, dificultando uma análise mais profunda e estratégica. 
+A VTEX oferece uma arquitetura composable e desacoplada, com funcionalidades que incluem gestão omnichannel, APIs robustas e ferramentas avançadas de otimização de estoque. Esse ecossistema possibilita que gestores de e-commerce acompanhem todo o fluxo de vendas, como o desempenho de campanhas, a movimentação de produtos e a eficiência operacional. Apesar disso, as informações disponibilizadas na plataforma nem sempre são apresentadas de forma integrada ou aprofundada. Na interface principal, os lojistas têm acesso a dados básicos — receita, ticket médio, número de pedidos e sessões — além de gráficos simplificados de tendências, taxa de conversão e a lista de produtos mais vendidos. Embora úteis, esses indicadores oferecem uma visão superficial e pouco explorável para quem busca análises mais detalhadas, relatórios comparativos ou correlações entre diferentes períodos e campanhas Assim, embora a VTEX forneça uma base sólida para operação e monitoramento, ainda existe uma lacuna significativa na geração de insights estratégicos. Gestores que precisam tomar decisões mais precisas — como identificar gargalos, entender padrões de compra, otimizar investimentos em mídia ou projetar resultados futuros — acabam recorrendo a ferramentas externas ou análises manuais para suprir essa necessidade.
+
+O desenvolvimento acelerado da Inteligência Artificial está promovendo uma verdadeira revolução no mercado de trabalho, ao potencializar e, em alguns casos, substituir, a atuação humana em tarefas repetitivas ou altamente complexas. Entre todas as capacidades oferecidas pela IA, a mais impactante é sua habilidade de relacionar informações e identificar padrões que muitas vezes não são percebidas por analistas, permitindo análises mais rápidas, precisas e profundas. Além desses avanços, estudos mostram que a incorporação da IA ​​no ambiente corporativo está reorganizando profundamente as estruturas de emprego e os perfis profissionais. Pesquisa da OCDE (2021) indica que a automação via IA não se limita a tarefas rotineiras, mas também avança para tarefas cognitivas mais sofisticadas. De acordo com o relatório OECD Employment Outlook 2023, o principal sinal dessa transição não é a perda de empregos, mas sim uma mudança nas tarefas desempenhadas pelos funcionários atuais.
+
+
+
+### URLS
+
+https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en/full-report/artificial-intelligence-job-quality-and-inclusiveness_a713d0ad.html?utm_source=chatgpt.com

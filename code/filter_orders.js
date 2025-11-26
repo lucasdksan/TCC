@@ -65,7 +65,8 @@ for (const item of $input.all()) {
         pagamentos: {}, 
         produtos: {},   
         alertas: [],
-        html_table: ""  
+        html_table: "",
+        data_atual: new Date().toISOString().split('T')[0],
     };
 
     for (const order of list) {
@@ -104,7 +105,8 @@ for (const item of $input.all()) {
                         productID: item.productId,
                         qtd_vendida: 0,
                         receita_gerada: 0,
-                        pedidos_envolvidos: 0
+                        pedidos_envolvidos: 0,
+                        data_da_venda: order.creationDate
                     };
                 }
 

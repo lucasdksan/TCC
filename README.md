@@ -35,8 +35,12 @@ Dadas essas limitações, o n8n surge como uma solução estratégica capaz de t
 
 1. **Objetivos**
     - **Objetivo geral**
+        Desenvolver um workflow que utilize inteligência artificial para correlacionar dados da plataforma e gerar relatórios com insights para os gestores da loja. Isso o auxiliará na tomada de decisões e ajudará a loja a alcançar mais conversões de vendas. 
 
     - **Objetivo específico** 
+        Para atingir o objetivo geral, é necessário definir alguns pontos específicos previamente para que o fluxo de trabalho seja modelado de forma a atender às expectativas. Esses pontos são:
+
+            * 
 ### URLS
 
 https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en/full-report/artificial-intelligence-job-quality-and-inclusiveness_a713d0ad.html?utm_source=chatgpt.com

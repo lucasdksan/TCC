@@ -34,13 +34,13 @@ Apesar de oferecer uma infraestrutura robusta para operações de e-commerce, a 
 Dadas essas limitações, o n8n surge como uma solução estratégica capaz de transformar a forma como os dados do VTEX são utilizados. Sua estrutura flexível permite a integração, fusão e automação de informações que atualmente estão dispersas pela plataforma. Com sua interface inteligente de criação de fluxos de trabalho, o n8n consolida os dados em um único fluxo contínuo, possibilitando correlações que o VTEX não oferece por padrão. Além disso, permite a implementação de modelos de IA diretamente nos fluxos, expandindo as capacidades analíticas. Assim, o n8n não apenas possibilita a automação de processos anteriormente manuais e repetitivos, mas também cria uma camada de inteligência sobre os dados, fornecendo aos gestores insights profundos, acionáveis ​​e atualizados. 
 
 1. **Objetivos**
-    - **Objetivo geral**
+    - **Objetivo geral** <br />
         Desenvolver um workflow que utilize inteligência artificial para correlacionar dados da plataforma e gerar relatórios com insights para os gestores da loja. Isso o auxiliará na tomada de decisões e ajudará a loja a alcançar mais conversões de vendas. 
 
-    - **Objetivo específico** 
+    - **Objetivo específico** <br /> 
         Para atingir o objetivo geral, é necessário definir alguns pontos específicos previamente para que o fluxo de trabalho seja modelado de forma a atender às expectativas. Esses pontos são:
 
-            * 
+        * R
 ### URLS
 
 https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en/full-report/artificial-intelligence-job-quality-and-inclusiveness_a713d0ad.html?utm_source=chatgpt.com

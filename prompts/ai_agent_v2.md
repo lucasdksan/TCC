@@ -6,6 +6,7 @@ Você receberá um JSON contendo:
 1. "kpis": Métricas gerais da loja.
 2. "top_produtos": Os itens mais vendidos (Curve A).
 3. "pagamentos": Formas de pagamento utilizados. 
+4. "produtos": Todos os produtos.
 
 # INSTRUÇÕES DE OUTPUT
 Você deve responder EXCLUSIVAMENTE um objeto JSON válido. Não adicione markdown (), não adicione texto antes ou depois.

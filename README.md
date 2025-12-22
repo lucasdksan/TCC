@@ -40,7 +40,18 @@ Dadas essas limitações, o n8n surge como uma solução estratégica capaz de t
     - **Objetivo específico** <br /> 
         Para atingir o objetivo geral, é necessário definir alguns pontos específicos previamente para que o fluxo de trabalho seja modelado de forma a atender às expectativas. Esses pontos são:
 
-        * R
+        * Modelar um MVP do workflow simplificado, capaz de executar o objetivo principal de ponta a ponta, sem refinamentos avançados ou necessidade de um prompt robusto.
+
+        * Utilizar dados sintéticos para simular cenários reais de vendas e permitir análises iniciais e viabilizando melhorias contínuas do modelo antes de usar dados reais.
+
+        * Realizar uma análise nos dados de entrada para identificar quais informações têm maior relevância no workflow.
+
+        * Investigar a melhor forma de apresentar os resultados para os usuários na tentativa de deixar a experiencia mais agradavel, dinamica e intuitiva.
+
+        * Realizar testes com diferentes modelos de IA disponíveis no mercado para identificar quais se encaixam melhor na proposta do projeto e apresentam os melhores resultados.
+
+### 
+
 ### URLS
 
 https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en/full-report/artificial-intelligence-job-quality-and-inclusiveness_a713d0ad.html?utm_source=chatgpt.com

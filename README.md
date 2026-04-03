@@ -25,10 +25,13 @@ O desenvolvimento acelerado da Inteligência Artificial está promovendo uma ver
  
 Nos Estados Unidos, a demanda por especialistas em IA quadruplicou entre 2010 e 2019, segundo Alekseeva et al. (2021), atingindo aproximadamente 0,4% do total de vagas de emprego. Esse número pode parecer pequeno à primeira vista, mas reflete a demanda anterior à "era GPT", que já indicava a necessidade de profissionais capazes de usar IA ou tecnologias nessa área para automatizar tarefas. Considerando uma pesquisa nacional mais recente, o Global AI Jobs Barometer 2025, um estudo da PwC que analisou aproximadamente um bilhão de vagas de emprego em seis continentes, mostrou que no Brasil houve um aumento de 19.000 em 2021 para 73.000 em 2024 no número de vagas. Além disso, o estudo aponta que, desde a ampla adoção da IA ​​generativa em 2022, houve um crescimento significativo na produtividade, passando de 7% para 27% entre 2018 e 2024.
 
-Nesse cenário, o uso da IA ​​em sua forma pura muitas vezes não alcança os resultados desejados. Portanto, muitas ferramentas foram criadas para tentar extrair o máximo valor possível da IA ​​nos fluxos de trabalho; no entanto, muitas delas cobram por usuário ou pelo acesso a determinadas funcionalidades, restringindo assim seu uso. Insatisfeito com essa dinâmica das plataformas, Jan Oberhauser lançou, em 2019, uma ferramenta que teve um impacto muito significativo no mercado o N8N.A proposta da ferramenta consiste em hospedagem própria, funcionalidade de código aberto, flexibilidade e integração com diversos aplicativos, como o Google Drive. Além disso, sua tecnologia não exige conhecimento avançado de programação, reduzindo consideravelmente a barreira de entrada, com sua arquitetura de nós mais próxima do low-code. 
+Nesse cenário, o uso da IA ​​em sua forma pura muitas vezes não alcança os resultados desejados. Portanto, muitas ferramentas foram criadas para tentar extrair o máximo valor possível da IA ​​nos fluxos de trabalho; no entanto, muitas delas cobram por usuário ou pelo acesso a determinadas funcionalidades, restringindo assim seu uso. Insatisfeito com essa dinâmica das plataformas, Jan Oberhauser lançou, em 2019, uma ferramenta que teve um impacto muito significativo no mercado o N8N.A proposta da tecnologia consiste em hospedagem própria, funcionalidade de código aberto, flexibilidade e integração com diversas aplicações, como o Google Drive. Além disso, sua tecnologia não exige conhecimento avançado de programação, reduzindo consideravelmente a barreira de entrada, com sua arquitetura de nós mais próxima do low-code. 
 
-1. **Objetivos**
+Embora sua tecnologia tenha sido lançada em 2019, foi somente em 2022 que ela ganhou significativa tração no mercado. Isso não aconteceu por acaso; com o avanço do ChatGPT, surgiu a necessidade de automatizar fluxos de trabalho usando esse modelo de IA, conectando e interconectando diversas APIs distintas e criando pipelines. Com esse tipo de necessidade emergindo, a n8n se destacou pela facilidade em executar essas tarefas de forma simples. 
+
+1. **Conceitos**
     
+    Com já mencionado, um dos diferenciais do n8n é sua interface que 
 
 ### 
 

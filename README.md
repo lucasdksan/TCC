@@ -31,7 +31,10 @@ Embora sua tecnologia tenha sido lançada em 2019, foi somente em 2022 que ela g
 
 1. **Conceitos**
     
-    Com já mencionado, um dos diferenciais do n8n é sua interface que 
+    Com já mencionado, um dos diferenciais do n8n é sua interface que facilita a implementação de fluxos de trabalho graças a sua logica de nós, onde cada nó pode se conectar com outros e, assim, manipular os dados da forma que mais desejar. A imagem 1 ilustra 
+
+    ![Imagem 1](/github/painel-n8n.jpg)
+    **Imagem 1: Painel do n8n**
 
 ### 
 

@@ -42,7 +42,7 @@ Embora sua tecnologia tenha sido lançada em 2019, foi somente em 2022 que ela g
 
     No mercado de trabalho, existem outros sistemas que utilizam a mesma lógica, mas com diferentes formas de integrar e estruturar projetos. O Zapier é uma concorrente do n8n e foca na automação baseada em nuvem que permite a integração entre diferentes aplicações por meio de fluxos automatizados. Este sistema opera com base em gatilhos e ações, permitindo que eventos em um aplicativo acionem automaticamente tarefas em outros. A diferença entre as plataformas reside no nível de abstração; por exemplo, o Zapier é totalmente baseado na nuvem, enquanto o n8n é autohospedado e pode ser executado em qualquer servidor. Além disso, o Zapier é completamente no-code, enquanto o n8n tende a ser um híbrido de no-code com low-code. Em termos de flexibilidade, o n8n tende a ser mais simples devido ao seu suporte a loops, condições e múltiplos caminhos, permitindo código personalizado dentro do fluxo.
 
-3. **Características do seu estudo e Objetivos**
+3. **Características do estudo e Objetivos**
 
     Este trabalho caracteriza-se como um estudo exploratório aplicado com um procedimento tutorial e implementação de fluxos em n8n, mostrando como realizar integrações, executar implantações em produção, apresentar os principais nós e explorar maneiras de criar fluxos dentro da plataforma. Além disso, demonstrará maneiras mais avançadas de criar projetos usando n8n, juntamente com outros tipos de nós que se integram a diferentes plataformas e aplicações. Outro ponto que será abordado é a defesa do uso do n8n em comparação com outros concorrentes. 
     

@@ -37,7 +37,7 @@ function App() {
   const handleStartAnalytics = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:5678/webhook-test/f0351812-d283-4cd0-b9fa-92a77434f557");
+      const response = await fetch("https://n8n.srv1650382.hstgr.cloud/webhook-test/0056db8d-08fc-422d-9cae-dadaa7e9dd54");
       const data = await response.text();
       const parsed = JSON.parse(data);
       setResultDiagnostic(parsed);
